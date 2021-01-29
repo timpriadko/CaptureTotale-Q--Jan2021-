@@ -14,3 +14,6 @@ https://odore.ml/#/devices/3fb6c8ab-60e1-4195-baf3-af6c1e5e2ce8 - рубутну
 Kose test campaign
 https://odore.ml/#/campaigns/6673222e-857b-45e3-8e70-835833eb2b35 - кампания
 https://box.odore.ml/devices/b95ca35a-8d47-47a7-81ee-3fd66f551ca7/index.html - ссылка на девайс
+
+Production device link
+https://device.odore.co.uk/devices/2a628902-78b6-4f26-ae42-df65e07b1a85/index.html
