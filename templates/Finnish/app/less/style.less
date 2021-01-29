@@ -5,6 +5,7 @@ body {
   position: relative;
   overflow: hidden;
   color: #fff;
+  background-color: #2b0007;
 }
 input:not([type=submit]).email-input {
   border-bottom: 2px solid #fff;
@@ -59,6 +60,14 @@ input:not([type=submit]).email-input {
 .hide-desktop{
   display: none;
 }
+.texts-wrap {
+  // display: flex;
+  .text {
+    &.small {
+      font-size: 23px;
+    }
+  }
+}
 .main-contact{
   background: url(../img/Background1.jpg) no-repeat top center/cover;
   height: 1856px;
@@ -88,6 +97,7 @@ input:not([type=submit]).email-input {
   &.qr-page {
     background-position-y: bottom;
     .btns {
+      max-width: 900px;
       .btn {
         margin-top: 40px;
       }
@@ -556,8 +566,13 @@ input {
     margin: 0;
 
     .grid-position--bottom {
-      margin-bottom: 60px;
+      margin-bottom: 110px;
     }
+  }
+
+  h2 {
+    background: rgba(0,0,0,.5);
+    box-shadow: 0 0 20px 20px rgba(0,0,0,.5);
   }
 
   .main-contact {
@@ -565,6 +580,14 @@ input {
     width: 100%;
     height: 100vh;
     position: fixed;
+    padding: 0 15px;
+
+    &.qr-page {
+      .text {
+        margin-top: 22px;
+        font-size: inherit;
+      }
+    }
     
     &.step-4 {
       .btns {
@@ -578,6 +601,7 @@ input {
       .form-row {
         margin-top: 0;
         background: rgba(0,0,0,.5);
+        box-shadow: 0 0 20px 20px rgba(0,0,0,.5);
       }
       .form-row {
         display: block;
@@ -589,13 +613,8 @@ input {
     .checkboxes .wrap-checkbox {
       border-radius: 18px;
       background: rgba(0, 0, 0, .5);
+      box-shadow: 0 0 20px 20px rgba(0,0,0,.5);
       padding: 10px;
-    }
-
-    &.step-8 {
-      .interest {
-        background: unset;
-      }
     }
 
     .wrap-info {
@@ -618,6 +637,7 @@ input {
       margin-top: 1vh;
     }
   }
+
   .btn.small-text{
     line-height: 15px!important;
     font-size: 11px!important;
@@ -625,6 +645,7 @@ input {
   .btns{
     flex-direction: column;
     max-width: 82%;
+    align-items: center;
 
     &.start{
       margin-top: 34vh;
